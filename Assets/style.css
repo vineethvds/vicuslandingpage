@@ -43,8 +43,7 @@ border-radius: 10px;
 }
 
 
-.header__part h1{
-    text-transform: capitalize;
+.header__part h1{   
     font-family: 'Manrope';
     font-style: weight;
     text-align: center;
@@ -99,4 +98,84 @@ box-shadow: inset 0px 36px 76px rgba(255, 0, 229, 0.7);
     font-size: 24px;
     text-align: center;
     padding: 15rem 0px;
+}
+/* 
+.community__world{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
+
+
+.heading{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+} */
+
+.heading__sub{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-align: left;    
+}
+
+.community__world h1{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 75px;
+line-height: 77px;
+/* or 103% */
+
+background: linear-gradient(122.57deg, #000000 -13.58%, #933FFE 86.88%, #933FFE 86.88%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+
+
+
+.community__world a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 19px */
+    text-decoration: none;
+    
+    /* E0E0DF */
+    
+    color: rgba(255, 255, 255, 0.92) !important;   
+}
+
+
+
+
+.fastgrowing{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E0E0DF;
+}
+
+
+.fastgrowing-primary{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E0E0DF;
 }
