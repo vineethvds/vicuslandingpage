@@ -1,0 +1,102 @@
+body{
+    background: #1E1E1E;
+}
+
+nav{
+    background: #1E1E1E;
+}
+
+.nav-link{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    
+    
+    /* E0E0DF */
+    
+    color: rgba(255, 255, 255, 0.92) !important;
+}
+
+
+.nav-link-btn{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    /* or 19px */
+    
+    padding: 5px 10px;
+    /* E0E0DF */
+    
+    color: rgba(255, 255, 255, 0.92) !important;
+    box-sizing: border-box;
+
+background: rgba(255, 255, 255, 0.01) !important;
+
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+
+.header__part h1{
+    text-transform: capitalize;
+    font-family: 'Manrope';
+    font-style: weight;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.wallet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallet__btn{
+    text-transform: capitalize;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #C172FF;
+    color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.ellipse__section{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ 
+.ellipse {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(53.86deg, #120D13 100.83%, #000000 88.66%);
+    box-shadow: 0px 0px 105px 40px #4A27B0;
+}
+/* 
+.ellipse{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #4A27AE; 
+    background: linear-gradient(53.86deg, #120D13 51.83%, #000000 88.66%);
+box-shadow: inset 0px 36px 76px rgba(255, 0, 229, 0.7);
+    
+} */
+
+.navbar-toggler {
+    background-color: white !important;
+}
+
+
+.ellipse a.nav-link {
+    font-size: 24px;
+    text-align: center;
+    padding: 15rem 0px;
+}
